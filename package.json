@@ -1,0 +1,19 @@
+{
+  "name": "liocam-backend-api",
+  "version": "1.0.0",
+  "description": "Backend API of LIOCAM construction serices Cameroon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henson Kudi Amah",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1019.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0"
+  }
+}
